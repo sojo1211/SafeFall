@@ -59,6 +59,7 @@ The Random Forest Classifier will be trained on labeled data, leveraging Decisio
 
 4.또한 요양시설, 의료시설 등 일상 환경에서 65세 이상의 낙상사고의 비율이 2020년에서 2024년동안 3.2배 증가했습니다.
 
+5. 이러한 낙상사고는 사람의 부주의, 사후대응 등 예방 부재로 인한 구조적 문제를 드러내고 있었습니다.
 -----
 문제 및 해결 방안
 
@@ -66,9 +67,6 @@ The Random Forest Classifier will be trained on labeled data, leveraging Decisio
 <img width="594" height="455" alt="image" src="https://github.com/user-attachments/assets/9aa20ef9-2e1b-4d23-ac76-1327a6866ab0" />
 <img width="609" height="438" alt="image" src="https://github.com/user-attachments/assets/b20aa9b3-679c-47b9-963c-eee28d9f9c8c" />
 <img width="633" height="446" alt="image" src="https://github.com/user-attachments/assets/52450f40-7e74-49d9-ae00-acaf27c32dfb" />
-
-
-5. 이러한 낙상사고는 사람의 부주의, 사후대응 등 예방 부재로 인한 구조적 문제를 드러내고 있었습니다.
 
 6. 그러나 현행 안전체계는 낙상사고가 일어난 후에 이를 감지하여 후속 조치를 가능하게 하는 ‘사후 대응’에6 머물러 있습니다.
 
