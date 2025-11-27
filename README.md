@@ -1,4 +1,4 @@
-# Elderly_Fall_Prediction 연구 인용
+<img width="703" height="497" alt="image" src="https://github.com/user-attachments/assets/a7b122ac-89fe-42f4-b4a6-f0c5906e364c" /># Elderly_Fall_Prediction 연구 인용
 
 <img width="509" height="705" alt="image" src="https://github.com/user-attachments/assets/932dc04a-ae5e-4378-ba03-8680907c2d46" />
 <img width="274" height="387" alt="image" src="https://github.com/user-attachments/assets/83289ab3-65fb-4815-975b-794e9d0116ee" />
@@ -49,6 +49,9 @@ The project will employ three types of models:
 The Random Forest Classifier will be trained on labeled data, leveraging Decision as the target variable, while the Kmeans Clustering algorithm will explore patterns and relationships within the dataset without using labeled information. The linear regression model will also be trained on labeled data. The comparative analysis of these models will provide insights into their effectiveness for the specific task of elderly fall prediction.
 ----
 문제인식 
+
+
+
 <img width="607" height="441" alt="image" src="https://github.com/user-attachments/assets/8c205892-e0a6-4cbc-9910-6ff3ac97a537" />
 <img width="605" height="435" alt="image" src="https://github.com/user-attachments/assets/54a76393-4966-46d2-8c92-96ebec0ebb0a" />
 <img width="604" height="446" alt="image" src="https://github.com/user-attachments/assets/94bb958b-7315-4d8f-babf-f58966621c79" />
@@ -58,6 +61,8 @@ The Random Forest Classifier will be trained on labeled data, leveraging Decisio
 
 -----
 문제 및 해결 방안
+
+
 <img width="594" height="455" alt="image" src="https://github.com/user-attachments/assets/9aa20ef9-2e1b-4d23-ac76-1327a6866ab0" />
 <img width="609" height="438" alt="image" src="https://github.com/user-attachments/assets/b20aa9b3-679c-47b9-963c-eee28d9f9c8c" />
 <img width="633" height="446" alt="image" src="https://github.com/user-attachments/assets/52450f40-7e74-49d9-ae00-acaf27c32dfb" />
@@ -70,8 +75,18 @@ The Random Forest Classifier will be trained on labeled data, leveraging Decisio
 
 ----
 기술 전략
+
+
 <img width="604" height="432" alt="image" src="https://github.com/user-attachments/assets/81be7766-db8f-47e0-b2e1-16fe0147c374" />
 <img width="603" height="438" alt="image" src="https://github.com/user-attachments/assets/a4981dc7-e35e-4e3b-ad36-a2ead302a705" />
 <img width="619" height="444" alt="image" src="https://github.com/user-attachments/assets/814dc523-048d-4b36-b7b8-b49324858bed" />
-
+<img width="705" height="512" alt="image" src="https://github.com/user-attachments/assets/4116c42d-b594-46ae-8472-a9998dbee827" />
+<img width="703" height="497" alt="image" src="https://github.com/user-attachments/assets/296d21c9-ae06-44ee-994f-4cb23434f3d9" />
+<img width="693" height="498" alt="image" src="https://github.com/user-attachments/assets/4b907dae-2e4d-4f18-b2ad-b8ee7f1692d6" />
+<img width="714" height="498" alt="image" src="https://github.com/user-attachments/assets/b0a123c6-6f7f-4b1c-b5d4-746f620226aa" />
+<img width="697" height="507" alt="image" src="https://github.com/user-attachments/assets/cd2a5cbc-13cb-43a9-b3cf-c95d3530e3c6" />
+<img width="698" height="507" alt="image" src="https://github.com/user-attachments/assets/c25bfa11-1ffb-4240-adda-44448d337927" />
+<img width="741" height="511" alt="image" src="https://github.com/user-attachments/assets/7ce41679-cd75-4517-b38b-fad8a8fee042" />
+<img width="718" height="517" alt="image" src="https://github.com/user-attachments/assets/463cdb0b-7cd1-4ae2-9d1d-1768e436681f" />
+<img width="698" height="484" alt="image" src="https://github.com/user-attachments/assets/be464780-83fd-4c59-9d70-2277d03a53ba" />
 
