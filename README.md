@@ -2,6 +2,14 @@
 <img width="509" height="705" alt="image" src="https://github.com/user-attachments/assets/932dc04a-ae5e-4378-ba03-8680907c2d46" />
 <img width="274" height="387" alt="image" src="https://github.com/user-attachments/assets/83289ab3-65fb-4815-975b-794e9d0116ee" />
 
+✅ “논문 인용” 포함 버전 (발표에서 바로 사용 가능)
+
+저희 팀은 먼저, 공개된 연구 논문과 데이터셋을 인용하여
+“낙상사고가 데이터로 사전에 예측 가능한 사고인가?”를 검증하는 것부터 시작했습니다.
+
+공개 데이터셋 Elderly Fall Prediction and Detection과 선행 연구 분석을 통해,
+센서 데이터만으로도 낙상 위험 패턴을 충분히 포착할 수 있다는 근거를 확보했고,
+이 검증이 바로 “세이프폴 인텔리전스” 기획의 출발점이 되었습니다.
 
 ## Dataset Characteristics
 
@@ -55,9 +63,9 @@ The Random Forest Classifier will be trained on labeled data, leveraging Decisio
 <img width="605" height="435" alt="image" src="https://github.com/user-attachments/assets/54a76393-4966-46d2-8c92-96ebec0ebb0a" />
 <img width="604" height="446" alt="image" src="https://github.com/user-attachments/assets/94bb958b-7315-4d8f-babf-f58966621c79" />
 
-3.고용노동부에 따르면 2022년 기준 재해유형별 사망원인 1위가 낙상사고이며 전체의 약 41.6%를 차지하고 있습니다.
+3. 고용노동부에 따르면 2022년 기준 재해유형별 사망원인 1위가 낙상사고이며 전체의 약 41.6%를 차지하고 있습니다.
 
-4.또한 요양시설, 의료시설 등 일상 환경에서 65세 이상의 낙상사고의 비율이 2020년에서 2024년동안 3.2배 증가했습니다.
+4. 또한 요양시설, 의료시설 등 일상 환경에서 65세 이상의 낙상사고의 비율이 2020년에서 2024년동안 3.2배 증가했습니다.
 
 5. 이러한 낙상사고는 사람의 부주의, 사후대응 등 예방 부재로 인한 구조적 문제를 드러내고 있었습니다.
 -----
@@ -90,6 +98,7 @@ The Random Forest Classifier will be trained on labeled data, leveraging Decisio
 <img width="741" height="511" alt="image" src="https://github.com/user-attachments/assets/7ce41679-cd75-4517-b38b-fad8a8fee042" />
 <img width="718" height="517" alt="image" src="https://github.com/user-attachments/assets/463cdb0b-7cd1-4ae2-9d1d-1768e436681f" />
 <img width="698" height="484" alt="image" src="https://github.com/user-attachments/assets/be464780-83fd-4c59-9d70-2277d03a53ba" />
+
 9. 본격적인 기술전략 설명에 앞서 주로 사용될 용어를 정리하고 가겠습니다
 
 10. 데이터 수집의 경우
@@ -114,8 +123,7 @@ EMG를 통해 근육이 수축할 때 발생하는 전기신호의 감지로 낙
 단계적 목표 수립을 통해 이를 해소하고자 합니다.
 1차 목표는 IMU, 심박 변이도, 산소포화도 만을 이용한 스마트워치기반 온디바이스 AI앱을 개발할 예정입니다.
 
-15. 
-기존 스마트워치는 이미 성능좋은 IMU와 HRV, spo2 센서를 가지고 있습니다. 
+15. 기존 스마트워치는 이미 성능좋은 IMU와 HRV, spo2 센서를 가지고 있습니다. 
 저희는 이 연속적인 데이터를 각각의 딥러닝 모델로 실시간 분석하여
 낙상발생 0.5초에서 1초정도 전에 미리 경고하는 기능을 구현합니다.
 
@@ -194,11 +202,9 @@ PoC단계 – MVP개발단계 – Pilot단계 3단계를 거칩니다.
 <img width="708" height="515" alt="image" src="https://github.com/user-attachments/assets/79ffc046-63e4-48b2-bed8-954cd0a17699" />
 <img width="709" height="508" alt="image" src="https://github.com/user-attachments/assets/4f61a93a-8971-43ac-ad96-090f35204e0a" />
 
-29
-이에 따라 다중 바이오 신호 기반의 낙상 ‘예측’ 기술을 통해 단기부터 장기위험을 모두판단하고, 축적데이터로 성능이 계속 발전하는 확장형 AI플랫폼을 구축한다는 기술적 효과와
+29. 이에 따라 다중 바이오 신호 기반의 낙상 ‘예측’ 기술을 통해 단기부터 장기위험을 모두판단하고, 축적데이터로 성능이 계속 발전하는 확장형 AI플랫폼을 구축한다는 기술적 효과와
 
-30
-고령자·건설현장 낙상을 사전에 예측해 부상·비용·관리부담을 줄이고,
+30. 고령자·건설현장 낙상을 사전에 예측해 부상·비용·관리부담을 줄이고,
 지역사회·산업현장 안전체계를 강화하는 사회적 효과를 가질 것으로 기대됩니다.
 
 ---
