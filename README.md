@@ -1,4 +1,8 @@
-# Elderly_Fall_Prediction 인용
+# Elderly_Fall_Prediction 연구 인용
+
+<img width="509" height="705" alt="image" src="https://github.com/user-attachments/assets/932dc04a-ae5e-4378-ba03-8680907c2d46" />
+<img width="274" height="387" alt="image" src="https://github.com/user-attachments/assets/83289ab3-65fb-4815-975b-794e9d0116ee" />
+
 
 ## Dataset Characteristics
 
@@ -43,3 +47,5 @@ The project will employ three types of models:
 - **Unsupervised Model: Kmeans Clustering**
 
 The Random Forest Classifier will be trained on labeled data, leveraging Decision as the target variable, while the Kmeans Clustering algorithm will explore patterns and relationships within the dataset without using labeled information. The linear regression model will also be trained on labeled data. The comparative analysis of these models will provide insights into their effectiveness for the specific task of elderly fall prediction.
+
+
