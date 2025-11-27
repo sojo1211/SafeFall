@@ -1,6 +1,4 @@
-# Elderly_Fall_Prediction
-
-This project aims to develop and evaluate predictive models for detecting falls among the elderly using sensor data from a wearable device called 'cStick.' The dataset, named ["Elderly Fall Prediction and Detection"](https://www.kaggle.com/datasets/laavanya/elderly-fall-prediction-and-detection/data), is sourced from Kaggle and comprises information collected from elderly participants wearing the 'cStick' device. This wearable not only detects falls but also predicts the likelihood of a fall incident. The 'cStick' monitors the surroundings, issues warnings to the user, and updates the location and surroundings based on the detected falls. The overall fall decision (prediction, warning, or detection) is determined with an impressive accuracy of around 95%.
+# Elderly_Fall_Prediction 인용
 
 ## Dataset Characteristics
 
