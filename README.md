@@ -1,4 +1,3 @@
-<img width="703" height="509" alt="image" src="https://github.com/user-attachments/assets/e9ffad95-b34f-47b2-98b8-761e60af083c" /><img width="703" height="497" alt="image" src="https://github.com/user-attachments/assets/a7b122ac-89fe-42f4-b4a6-f0c5906e364c" /># Elderly_Fall_Prediction 연구 인용
 
 <img width="509" height="705" alt="image" src="https://github.com/user-attachments/assets/932dc04a-ae5e-4378-ba03-8680907c2d46" />
 <img width="274" height="387" alt="image" src="https://github.com/user-attachments/assets/83289ab3-65fb-4815-975b-794e9d0116ee" />
