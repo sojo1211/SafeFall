@@ -2,7 +2,69 @@
 <img width="509" height="705" alt="image" src="https://github.com/user-attachments/assets/932dc04a-ae5e-4378-ba03-8680907c2d46" />
 <img width="274" height="387" alt="image" src="https://github.com/user-attachments/assets/83289ab3-65fb-4815-975b-794e9d0116ee" />
 
-✅ “논문 인용” 포함 버전 (발표에서 바로 사용 가능)
+---
+
+# 📌 **데이터셋 특성 (Dataset Characteristics)**
+
+해당 데이터셋은 총 **2,039개의 샘플**로 구성되어 있으며, **7개의 특징(feature)**을 포함합니다:
+
+1. **Distance (거리)**
+2. **Pressure (압력)**
+3. **HRV (심박 변이도)**
+4. **Sugar level (혈당)**
+5. **SpO₂ (산소포화도)**
+6. **Accelerometer (가속도계)**
+7. **Decision (낙상 여부 레이블)**
+
+`Decision`은 최종 낙상 감지 결과를 나타내는 라벨로, 아래와 같은 값을 가집니다:
+
+* **0:** 낙상 없음 (No Fall detected)
+* **1:** 미끄러짐(Slip detected)
+* **2:** 확실한 낙상(Definite fall)
+
+---
+
+# 📌 **연구 질문 (Research Questions)**
+
+### **1. 주요 연구 질문 (Primary Research Question)**
+
+1. **예측 정확도(Prediction Accuracy):**
+   제공된 특징들을 활용하여 모델이 고령자의 낙상을 얼마나 정확하게 예측할 수 있는가?
+
+---
+
+### **2. 부가 연구 질문 (Secondary Research Questions)**
+
+2. **특징 중요도(Feature Importance):**
+   어떤 특징들이 낙상 예측에 중요한 역할을 하며, 모델의 의사결정에 어떻게 기여하는가?
+
+3. **모델 비교(Model Comparison):**
+   랜덤 포레스트(Random Forest)와 K-평균(Kmeans) 모델이 낙상 예측 성능에서 어떻게 비교되는가?
+
+4. **False Positive 분석:**
+   고령자 낙상 예측 시스템에서 **오탐(False Positive)**이 발생했을 때 어떤 영향과 위험이 있는가?
+
+5. **실환경 적용 가능성(Real-world Applicability):**
+   웨어러블 기반 시스템이 가지는 제약을 고려했을 때, 개발된 모델은 실제 환경에서도 활용 가능한가?
+
+---
+
+# 📌 **모델 설계 (Model Design)**
+
+이 프로젝트는 다음 3가지 유형의 머신러닝 모델을 활용합니다:
+
+* **지도학습 모델: 선형 회귀(Linear Regression)**
+* **지도학습 모델: 랜덤 포레스트 분류기(Random Forest Classifier)**
+* **비지도 학습 모델: K-평균 군집화(Kmeans Clustering)**
+
+랜덤 포레스트 모델은 라벨이 있는 데이터에 대해 `Decision` 값을 목표(target)로 학습하고,
+K-평균 모델은 라벨 없이 데이터의 패턴을 탐색합니다.
+선형회귀 역시 라벨 데이터를 기반으로 학습하며,
+이 세 모델의 비교 분석을 통해 **고령자 낙상 예측에 어떤 모델이 가장 효과적인지**에 대한 통찰을 얻을 수 있습니다.
+
+---
+
+ “논문 인용” 
 
 저희 팀은 먼저, 공개된 연구 논문과 데이터셋을 인용하여
 “낙상사고가 데이터로 사전에 예측 가능한 사고인가?”를 검증하는 것부터 시작했습니다.
@@ -10,50 +72,6 @@
 공개 데이터셋 Elderly Fall Prediction and Detection과 선행 연구 분석을 통해,
 센서 데이터만으로도 낙상 위험 패턴을 충분히 포착할 수 있다는 근거를 확보했고,
 이 검증이 바로 “세이프폴 인텔리전스” 기획의 출발점이 되었습니다.
-
-## Dataset Characteristics
-
-The dataset consists of 2039 instances, each with 7 features:
-
-1. **Distance**
-2. **Pressure**
-3. **HRV (Heart Rate Variability)**
-4. **Sugar level**
-5. **SpO2 (Oxygen Saturation)**
-6. **Accelerometer**
-7. **Decision**
-
-The 'Decision' feature serves as the label, representing the outcome of the fall detection, with the following values and meanings:
-
-- 0: 'No Fall detected'
-- 1: 'Slip detected'
-- 2: 'Definite fall'
-
-## Research Questions
-
-The primary research question:
-
-1. **Prediction Accuracy:** How well can the models predict falls among the elderly based on the provided features?
-
-This project will also address the following secondary research questions:
-
-2. **Feature Importance:** Which features play a crucial role in predicting falls, and how do they contribute to the models' decision-making process?
-
-3. **Model Comparison:** How do the Random Forest Classifier and Kmeans Clustering models compare in terms of predictive performance for fall detection?
-
-4. **False Positive Analysis:** What are the implications and potential consequences of false-positive predictions in an elderly fall detection system?
-
-5. **Real-world Applicability:** How suitable are the developed models for real-world deployment, considering the practical constraints and challenges associated with wearable devices?
-
-## Model Design
-
-The project will employ three types of models:
-
-- **Supervised Model: Linear Regression**
-- **Supervised Model: Random Forest Classifier**
-- **Unsupervised Model: Kmeans Clustering**
-
-The Random Forest Classifier will be trained on labeled data, leveraging Decision as the target variable, while the Kmeans Clustering algorithm will explore patterns and relationships within the dataset without using labeled information. The linear regression model will also be trained on labeled data. The comparative analysis of these models will provide insights into their effectiveness for the specific task of elderly fall prediction.
 ----
 문제인식 
 
