@@ -28,7 +28,7 @@
 SafeFall Intelligence 프로젝트에서 저는 다중 센서 데이터를 학습 가능한 형태로 만들기 위해
 라벨링, 전처리, 정제, 품질 검증을 수행했습니다.
 아래는 제가 맡은 핵심 역할입니다.
-
+---
 **📌 나의 주요 역할 (Key Responsibilities)**
 
 라벨링 기준 설계(Decision Labeling)
@@ -72,6 +72,8 @@ Feature Engineering(특징 엔지니어링)
 전체 데이터셋의 신뢰성을 점검
 
 안정적인 모델 학습을 위한 고품질 데이터 구축
+
+---
 
 **📌 핵심 요약 (Summary)**
 
