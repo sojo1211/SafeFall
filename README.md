@@ -31,60 +31,29 @@ SafeFall Intelligence 프로젝트에서 저는 다중 센서 데이터를 학�
 ---
 **📌 나의 주요 역할 (Key Responsibilities)**
 
-라벨링 기준 설계(Decision Labeling)
 
-Decision 레이블(0: 정상 / 1: 미끄러짐 / 2: 확실한 낙상) 정의
-
-낙상 유형 구분 기준을 구조화하고 일관성 확보
-
-센서 데이터 전처리(Data Preprocessing)
-
-이상치 제거(Outlier Removal)
-
-정규화(Normalization)
-
-Noise 필터링 및 기본 데이터 정제
-
-레이블 정합성 검증(Label Consistency Check)
-
-라벨 오류 탐지 및 수정
-
-중복·모순 레코드 제거
-
-모델 훈련을 방해하는 잘못된 레이블 검수
-
-클래스 불균형 처리(Class Imbalance Handling)
-
-RF, K-Means 학습 전 클래스 비율 분석
-
-데이터 편향을 줄이기 위한 구조적 조정
-
-Feature Engineering(특징 엔지니어링)
-
-특징 선택(Feature Selection)
-
-데이터 분포 확인 및 스케일 조정
-
-모델이 이해할 수 있는 특징 구조로 재가공
-
-데이터 품질 관리(Data Quality Management)
-
-전체 데이터셋의 신뢰성을 점검
-
-안정적인 모델 학습을 위한 고품질 데이터 구축
-
+1. **Decision 레이블(0: 정상 / 1: 미끄러짐 / 2: 확실한 낙상) 정의**
+2. **낙상 유형 구분 기준을 구조화하고 일관성 확보**
+3. **낙상 유형 구분 기준을 구조화하고 일관성 확보**
+4. **센서 데이터 전처리(Data Preprocessing)**
+5. **이상치 제거(Outlier Removal)**
+6. **정규화(Normalization)**
+7. **Noise 필터링 및 기본 데이터 정제**
+8. **레이블 정합성 검증(Label Consistency Check)**
+9. **모델 훈련을 방해하는 잘못된 레이블 검수**
+10. **클래스 불균형 처리(Class Imbalance Handling)**
+11. **RF, K-Means 학습 전 클래스 비율 분석**
 ---
 
 **📌 핵심 요약 (Summary)**
 
-Decision 라벨 기준을 설계하고 정합성 검증을 수행
+**Decision 라벨 기준을 설계하고 정합성 검증을 수행**
 
-이상치 제거·정규화 등 센서 데이터 전처리 수행
+**이상치 제거·정규화 등 센서 데이터 전처리 수행**
 
-클래스 불균형 처리 및 Feature Engineering 수행
+**클래스 불균형 처리 및 Feature Engineering 수행**
 
-다중 센서 데이터를 학습 가능한 구조로 정제하며
-모델 성능 향상에 직접 기여
+**다중 센서 데이터를 학습 가능한 구조로 정제하며 모델 성능 향상에 직접 기여**
 
 **✨ README 강조 문장**
 
