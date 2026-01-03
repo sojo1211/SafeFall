@@ -66,7 +66,9 @@ SafeFall Intelligence 프로젝트에서 저는 다중 센서 데이터를 학�
 
 1. **예측 정확도(Prediction Accuracy):**
    제공된 특징들을 활용하여 모델이 고령자의 낙상을 얼마나 정확하게 예측할 수 있는가?
-
+<img width="787" height="706" alt="image" src="https://github.com/user-attachments/assets/154ef96c-6450-44b3-b5fe-a712de34d947" />
+기존 낙상 탐지 accuracy ~92–99%으로 높은 성능을 보이지만, 낙상 이후 탐지이므로 한계가 있다.
+이 프로젝트는 낙상 탐지 이전 근본적인 재해 사고를 막기 위한 낙상 사고 예측을 위한 프로젝트이다.
 ---
 
 ### **2. 부가 연구 질문 (Secondary Research Questions)**
